@@ -39,3 +39,18 @@ Additional options are:
 ``title``
     The title to add to the top of the shortened CHANGELOG file.
     Defaults to ``Changelog\n=========``.
+
+
+Changelog
+=========
+
+0.2.0 (unreleased)
+------------------
+
+- Add ``tomli`` to build requirements.
+
+
+0.1.0 (2022-02-07)
+------------------
+
+- Initial release.
