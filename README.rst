@@ -21,8 +21,8 @@ To enable changelog shortening, add the following section to your ``pyproject.to
 
     # pyproject.toml
     [tool.setuptools_changelog_shortener]
-    read_from = CHANGELOG.rst
-    write_to = CHANGELOG.short.rst
+    read_from = "CHANGELOG.rst"
+    write_to = "CHANGELOG.short.rst"
 
 Then you use the ``CHANGELOG.short.rst`` file for your ``long_description`` metadata field.
 
