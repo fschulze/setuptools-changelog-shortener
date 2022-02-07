@@ -47,6 +47,8 @@ Changelog
 0.2.0 (unreleased)
 ------------------
 
+- Fix error when ``count`` is bigger or equal the number of changelog entries.
+
 - Add ``tomli`` to build requirements.
 
 

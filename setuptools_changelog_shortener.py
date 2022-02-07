@@ -23,7 +23,9 @@ def _shorten_changelog(config):
         text = f.read()
     header_matches = list(re.finditer(delimiter, text, re.MULTILINE))
     # until "count" header
-    text = text[:header_matches[count].start()]
+    count = min(count, len(header_matches))
+    if count < len(header_matches):
+        text = text[:header_matches[count].start()]
     # all lines without last release number
     lines = text.splitlines()[:-1]
     with open(write_to, "w", encoding="utf-8") as f:
