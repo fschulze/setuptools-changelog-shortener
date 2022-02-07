@@ -44,7 +44,7 @@ Additional options are:
 Changelog
 =========
 
-0.2.0 (unreleased)
+0.2.0 (2022-02-07)
 ------------------
 
 - Fix error when ``count`` is bigger or equal the number of changelog entries.
